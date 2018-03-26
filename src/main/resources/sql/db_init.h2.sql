@@ -38,4 +38,3 @@ CREATE USER IF NOT EXISTS dbuser PASSWORD `dbuser`;
 
 GRANT ALL ON Country TO dbuser;
 GRANT ALL ON City TO dbuser;
-

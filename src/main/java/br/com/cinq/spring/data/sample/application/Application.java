@@ -8,6 +8,7 @@ import org.springframework.boot.orm.jpa.EntityScan;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
+
 /**
  * Greeting Service.
  */
@@ -26,4 +27,6 @@ public class Application extends SpringBootServletInitializer {
     public static void main(String[] args) {
         new Application().configure(new SpringApplicationBuilder(Application.class)).run(args);
     }
+	
+	
 }
